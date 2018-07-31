@@ -24,4 +24,11 @@ int main(void)
 工程文件夹下创建子文件夹
 * 第二步：确定芯片型号<br>
 根据芯片型号下载相应的官方固件库，解压后分析各个文件的作用。<br>
+如:下载"STM32F0xx_StdPeriph_Lib_V1.5.0"。<br>
+解压得到文件夹：<br>
+  * "_htmresc"<br> 
+  该文件夹下存放Logo文件。<br>
+  * "Libraries"<br>
+  * "Projects"<br>   
+  * "Utilities".<br>
 
