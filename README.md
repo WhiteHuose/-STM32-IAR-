@@ -21,7 +21,19 @@ int main(void)
 ## 2.开始创建IAR工程
 ----
 * 第一步：创建工程文件夹<br>
-工程文件夹下创建子文件夹
+工程文件夹下创建子文件夹<br>
+  * COMSIS:<br>
+  初始化堆栈指针；Cortex Microcontroller Software Interface Standard,此分组下的文件用来在启动时初始化向量表、配置系统时钟、定义片上外设寄存器等. <br>
+  * HARDWARE:<br>
+  用于用户外接的器件配置的函数定义的.h文件和.c文件.<br>
+  * LIB:<br>
+  STM32自带的片上外设的库函数.<br>
+  * USER:<br>
+  主函数及其它用户自编函数的.h或.c文件.<br>
+  * DEVICE:<br>
+  用于片上外设配置的函数的.h文件和.c文件.<br>
+ 
+ 
 * 第二步：确定芯片型号<br>
 根据芯片型号下载相应的官方固件库，解压后分析各个文件的作用。<br>
 如:下载"STM32F0xx_StdPeriph_Lib_V1.5.0"。<br>
