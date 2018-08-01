@@ -62,7 +62,7 @@ int main(void)
    * b.c/c++ compiler.<br>
   preprocessor选项中添加文件路径，分别为工程文件的CMSIS,USER,APP\inc,DEVICE\inc，添加完成后再将绝对路径修改为相对路径。<br>
    * c.debugger.<br>
-  setup选项driver选择为ST-LINK，download选项勾选USE FLASH LOSDER.<br>
+  setup选项driver选择为ST-LINK，download选项勾选USE FLASH LOADER.<br>
  * 第五步：修改系统文件。<br>
  将stm32f0xx.h文件中的如下代码行中的注释符去掉
  ```c
@@ -88,6 +88,6 @@ int main(void)
  至此，rebuild all，编译结果error：0，warning：0.这样我们的工程模板就创建完成了。<br>
  ### 在创建其他型号的芯片工程时基本步骤都大同小异，在遇到问题时可以根据错误提示耐心寻找解决办法哦.<br>
  <br><br>
- 转载请注明出处。
+希望能帮助到同在学习的你，转载请注明出处。
   
 
